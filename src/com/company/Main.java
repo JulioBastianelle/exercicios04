@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
+public class Exercicio04 {
 
     public static void main(String[] args) {
         Scanner sanner = new Scanner(System.in);
@@ -21,8 +21,7 @@ public class Main {
             double desconto = (subTotal * 10) / 100;
             subTotal = subTotal - desconto;
             System.out.println("Você deverá pagar o valor de: " + subTotal + " reais.");
-        }
-        else{
+        } else {
             System.out.println("Sem desconto pois não atingiu a regra de 10 produtos, valor final de: " + subTotal);
         }
     }
